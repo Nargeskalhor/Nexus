@@ -1,45 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>sign up</title>
 </head>
+
 <body>
-    <form action="8"> 
-        <h1>SIGN UP</h1>
-        <label for=" Name:"> Name:</label>
-        <input type="text" id=" Name:" name=" Name" placeholder="enter your name..."  />
+    <h1>SIGN UP</h1>
+
+    <form action="#">
+        <label for="Name">name :</label>
+        <input type="text" id="Name" name="name" placeholder="enter your name..." required>
         <br>
         <br>
         <label for="Last-Name">Last Name:</label>
-        <input type="text" name="Last-Name" id="Last-Name" required placeholder="enter your Last name..." />
-        
-      <br>
-      <br>
+        <input type="text" name="lastName" id="Last-Name" placeholder="enter your Last name..." required>
+
+        <br>
+        <br>
         <label for="password">Password:</label>
-        <input type="text" name="password" id="password"  placeholder="enter your password..." />
+        <input type="password" name="password" id="password" placeholder="enter your password..." required>
         <br>
         <br>
         <label for="Age">Age:</label>
-        <input type="number" id="Age" style="width: 162px !important;" min="1" max="100" placeholder="enter your age..."/>
+        <input type="number" id="Age" name="age" style="width: 162px;" min="1" max="100"
+            placeholder="enter your age..." required>
         <br>
-        
-        <p>gender:</p>
-       <form >
-        <label for="male">male</label>
-        <input type="radio" id="male" name="gender" value="male" >
-        
-        <label for="female">female</label>
-        <input type="radio" id="female" name="gender" value="female">
-       </form>
 
-    <label for="are you agree with our legecy">are you agree with our legecy </label>
-    <input type="checkbox" name="are you agree with our legecy" id="are you agree with our legecy">
+        <p>gender:</p>
+
+        <label for="male">male</label>
+        <input type="radio" id="male" name="gender" value="male" required>
+
+        <label for="female">female</label>
+        <input type="radio" id="female" name="gender" value="female" required>
+
+        <label for="agree">are you agree with our legecy </label>
+        <input type="checkbox" name="agree" id="agree" required>
         <br>
         <br>
-        <input type="submit" />
-       
+
+        <input type="submit" name="submit" value="submit">
     </form>
 </body>
+
 </html>
