@@ -4,13 +4,18 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>NEXUS</title>
+    <link
+    rel="shortcut icon"
+    href="./assets/logo/logo-2.png"
+    type="image/x-icon"
+    />
     <link rel="stylesheet" href="src/style/main.css" />
   </head>
   <body>
     <!-- header website => completed -->
     <header>
       <nav class="navbar">
-        <a href="#">
+        <a href="./index.html">
           <img class="logo" src="./assets/logo/logo.png" alt="Logo-website" />
         </a>
 
@@ -37,46 +42,43 @@
     </header>
 
     <!-- main website -->
-    <main>
-      <!-- hero section or home section => **leyla** -->
+    <main class="main">
+      <!-- hero section -->
       <section class="hero-section">
-        <h1>
-          we bring a wealth of experience from a wide range of backgrounds
-        </h1>
-        <h5>
-          our philosophy is simple: hine great people and give them the
-          resources and support to do their bost work.
-        </h5>
+        <div class="hero-container">
+          <h1 class="main-title">
+            we bring a wealth of <strong class="exprience">experience</strong> from a wide range of backgrounds
+          </h1>
+          <h5 class="main-title-desc">
+            our philosophy is simple: hine great people and give them the
+            resources and support to do their bost work.
+          </h5>
+        </div>
       </section>
 
-      <!-- about us section => **narges**-->
-      <section class="about-us-section">
-        <!-- h2 => about us -->
-        <!-- p => We are the nexus software team, with a wealth of experience in building websites, all team members have higher academic degrees and are experts in their field of work. -->
-        <h2>about us</h2>
-        <p>
-          We are the nexus software team, with a wealth of experience in
-          building websites, all team members have higher academic degrees and
-          are experts in their field of work.
-        </p>
-
-        <!-- img -->
-        <!-- h5 => name -->
-        <!-- p => description -->
+      <!-- about us section-->
+      <section id="about-us" class="about-us-section">
+        <div class="title-container">
+          <div class="text-container">
+            <h2 class="about-title">about us</h2>
+            <p class="about-desc">
+              We are the nexus software team, with a wealth of experience in
+              building websites, all team members have higher academic degrees and
+              are experts in their field of work.
+            </p>
+          </div>
+        </div>
       </section>
 
-      <!-- blogs section => **shayan** -->
-      <section class="blogs-section">
-        <!-- img -->
-        <!-- h5 => name -->
-        <!-- a => link personal pages -->
-        <a href=""
+      <!-- blogs section-->
+      <section id="blogs" class="blogs-section">
+        <a href="#"
           ><div class="blog-box">
             <img
               width="100px"
               class="blog-image"
               src="assets/img/cena-img.jpg"
-              alt=""
+              alt="cena-img"
             />
             <h2>cena</h2>
 
@@ -85,13 +87,13 @@
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
           </div></a
         >
-        <a href=""
+        <a href="#"
           ><div class="blog-box">
             <img
               width="100px"
               class="blog-image"
               src="assets/img/lyla-img.jpg"
-              alt=""
+              alt="lyla-img"
             />
             <h2>lyla</h2>
 
@@ -100,13 +102,13 @@
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
           </div></a
         >
-        <a href=""
+        <a href="#"
           ><div class="blog-box">
             <img
               width="100px"
               class="blog-image"
               src="assets/img/narges-img.jpg"
-              alt=""
+              alt="narges-img"
             />
             <h2>narges</h2>
 
@@ -115,13 +117,13 @@
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
           </div></a
         >
-        <a href=""
+        <a href="#"
           ><div class="blog-box">
             <img
               width="100px"
               class="blog-image"
               src="assets/img/shayan-img.jpg"
-              alt=""
+              alt="shayan-img"
             />
             <h2>shayan</h2>
 
@@ -132,16 +134,19 @@
         >
       </section>
 
-      <!-- contact section => **cena**-->
-      <section class="contact-section">
+      <!-- contact section-->
+      <section id="contact" class="contact-section">
         <div class="contact-container">
-          <h1>how contact us ?</h1>
-          <p>we are always avilable , chat to our team.</p>
+          <div class="contact-sec1-container">
+            <h1>how contact us ?</h1>
+            <p>we are always avilable , chat to our team.</p>
 
-          <div class="">
             <div class="roles">
               <button class="roles-button">explore roles</button>
             </div>
+          </div>
+
+          <div class="social-icons-container">
             <div class="social">
               <!-- facebook -->
               <div class="facebook">
@@ -183,9 +188,11 @@
     </main>
     <!-- footer website => **cena** -->
     <footer class="footer">
-      <h2>do you want to have website for yourself ?.</h2>
-      <p>start your 30-day free trial. cancel anytime.</p>
-      <button>30-day free trial</button>
+      <div class="footer-container">
+        <h2>do you want to have website for yourself ?.</h2>
+        <p>start your 30-day free trial. cancel anytime.</p>
+        <button>30-day free trial</button>
+      </div>
     </footer>
   </body>
 </html>
