@@ -35,11 +35,12 @@
 }
 .nav > li {
   margin-left: 30px;
-  text-transform: capitalize;
+  text-transform: uppercase;
 }
 .nav > li > a {
   color: black;
   transition: ease-in .1s;
+  font-size: .9rem;
 }
 .nav > li > a:hover{
   color: #edcf73;
@@ -107,28 +108,46 @@
   text-align: center;
   color: rgb(117, 117, 117);
 }
-/* about-us-section area*/
+/* our-value-section area*/
 .our-value-section{
   max-width: 1080px;
-  height: 80vh;
+  height: 50vh;
   margin: 0px auto;
-  padding: 0px 10px 0px 10px;
-}
-.our-value-container{
-  text-align: center;
   margin-top: 30px;
 }
 .value-title{
   text-transform: uppercase;
   color: rgb(23, 24, 35);
-  margin-bottom: 10px;
+  margin-bottom: 30px;
 }
-/* .about-desc{
-  width: 650px;
-  margin: 0px auto;
-  color: rgb(117, 117, 117);
-  line-height: 20px;
-} */
+.our-value-container{
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+.value-box-container{
+  height: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.box{
+  width: 24%;
+  height: 100%;
+  padding: 25px 20px 10px 20px;
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 1px 1px 0px, rgba(0, 0, 0, 0.25) 0px 2px 8px 0px, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+}
+
+.box > h4{
+  margin-bottom: 8px;
+}
+.box > p{
+  color: rgb(99, 99, 99);
+}
+.box-icon{
+  padding: 20px 0px 20px 0px;
+}
 /* contact us styles */
 .contact-section{
   margin:40px 0px 40px 0px; 
